@@ -1,0 +1,104 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans+Condensed:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans+Condensed:wght@700&display=swap');
+
+body{background-color: rgb(253,251,251);
+    margin: 10px;
+    border: 20px solid white;
+}
+
+p, h1, h2, h3 , li, a{font-family: 'Open Sans Condensed', sans-serif;
+}
+
+ul, ol {line-height: 30px;}
+
+#sumario a{color:white;
+    text-decoration: none;
+    margin-right: 100px;
+    margin-left: 100px;
+}
+
+a{color:rgb(0, 204, 153);
+text-decoration: none;
+}
+
+#cabecalho{position: fixed;
+    display: block;
+    top:0;
+    border: 2px rgb(96, 71, 46);
+    text-align: center;
+    margin: 2px; 
+  
+}
+#titulo{border: solid 2px black;
+    padding: 2px 630px;
+    background-color: white;
+
+}
+#sumario{border:  2px;
+    margin-top:70px;
+    width: 100%;
+    background-color: rgb(96, 71, 46);
+    text-align: center;
+}
+
+#minha_foto{border:20px solid white ;
+    display: inline-block;
+    height: 250px;
+    margin-left: 50px;
+}
+
+#aprendido{display: inline-block;
+    border: 3px ;
+    margin-top: 10px;  
+    width: 32%;
+    margin-left: 50px;
+    padding: 30px 30px;
+}
+
+#aprender{display: inline-block;
+    border: 3px;  
+    width: 32%; 
+}
+
+#artigo{display: inline-block;
+    padding-bottom: 23px;
+    width: 50%;
+    border: solid 2px black;
+}
+#artigo h2{margin-left: 15px;
+}
+
+#artigo p{margin-left: 15px;
+}
+
+.lado-esquerdo{float: left;
+
+}
+#anotacoes{display: inline-block;
+    width: 48%;
+    border: solid 2px black;
+    padding-bottom: 135px;    
+}
+
+#anotacoes p, h2{margin-left: 15px; 
+}
+
+.lado-direito{float: right;}
+
+
+#agenda{display: inline-block;}
+
+#tabela{border: 2px solid black;
+border-spacing: 0px;
+text-align: center;}
+
+#tabela td{border: 1px solid black;
+    padding: 20px 10px;
+}
+
+#rodape{border: 30px;
+    font-size: 12px;
+    text-align: center;
+    margin-top: 10px;
+    display: inline;
+}
